@@ -12,7 +12,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templat  eKey", widget: "hidden", default: "catalog-product"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "catalog-product"}
       - {label: "Title", name: "title", widget: "string"}
       - label: Pricing
         name: pricing
@@ -24,7 +24,11 @@ collections:
           - label: Currency
             name: currency
             widget: string
-      - {label: Image, name: image, widget: image}
+      - label: Gallery
+        name: gallery
+        widget: list
+        field:
+          - {label: Image, name: image, widget: image}
       - {label: Full_image, name: full_image, widget: image}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
