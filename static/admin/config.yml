@@ -24,6 +24,9 @@ collections:
           - label: Currency
             name: currency
             widget: string
+          - label: Unit
+            name: unit
+            widget: string
       - label: Gallery
         name: gallery
         widget: list

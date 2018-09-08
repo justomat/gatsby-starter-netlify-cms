@@ -4,6 +4,7 @@ title: Softboard
 pricing:
   currency: IDR
   price: '250000'
+  unit: lembar
 gallery:
   - image: /img/catalog10.jpg
 full_image: /img/chemex.jpg
